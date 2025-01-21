@@ -8,14 +8,13 @@ export default {
 					"linear-gradient(45deg, #096BDE, #096BDE 30%, #DDF1FF)",
 			},
 			animation: {
-				marquee: "marquee 14s linear infinite",
-				"marquee-fast": "marquee 12s linear infinite",
-				"marquee-reverse": "marquee reverse 24s linear infinite",
+				marquee: "marquee 32240ms linear infinite",
+				"marquee-fast": "marquee 44040ms linear infinite",
+				"marquee-reverse": "marquee reverse 24560ms linear infinite",
 			},
 			keyframes: {
 				marquee: {
-					from: { transform: "translateY(-50%)" },
-					to: { transform: "translateY(50%)" },
+					"100%": { transform: "translateY(-50%)" },
 				},
 			},
 		},
