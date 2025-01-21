@@ -11,10 +11,16 @@ export default {
 				marquee: "marquee 32240ms linear infinite",
 				"marquee-fast": "marquee 24560ms linear infinite",
 				"marquee-reverse": "marquee reverse 40800ms linear infinite",
+				"spin-slow": "spin-slow 2s linear infinite",
+				"spin-slow-reverse": "spin-slow reverse 5s linear infinite",
 			},
 			keyframes: {
 				marquee: {
 					"100%": { transform: "translateY(-50%)" },
+				},
+				"spin-slow": {
+					from: { transform: "rotate(0deg)" },
+					to: { transform: "rotate(360deg)" },
 				},
 			},
 		},
