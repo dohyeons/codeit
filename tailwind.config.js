@@ -13,6 +13,7 @@ export default {
 				"marquee-reverse": "marquee reverse 40800ms linear infinite",
 				"spin-slow": "spin-slow 2s linear infinite",
 				"spin-slow-reverse": "spin-slow reverse 5s linear infinite",
+				"scroll-fadeIn": "scroll-fadeIn 1s ease-in-out",
 			},
 			keyframes: {
 				marquee: {
@@ -21,6 +22,10 @@ export default {
 				"spin-slow": {
 					from: { transform: "rotate(0deg)" },
 					to: { transform: "rotate(360deg)" },
+				},
+				"scroll-fadeIn": {
+					from: { transform: "translateY(80%)", opacity: "0" },
+					to: { transform: "translateY(0)", opacity: "1" },
 				},
 			},
 		},
