@@ -34,7 +34,11 @@ export default function Feature() {
 					</ReviewCard>
 				))}
 			</div>
-			<div className="space-y-8 py-4 animate-marquee-reverse">
+			<div
+				className={`space-y-8 py-4 transition-all translate-x-0 transform ease-in duration-600 ${
+					isLoaded ? "animate-marquee-reverse opacity-100" : "opacity-0"
+				}`}
+			>
 				{dummy2.map(item => (
 					<ReviewCard key={item.id}>
 						<div className="text-gray-900">
@@ -46,7 +50,11 @@ export default function Feature() {
 					</ReviewCard>
 				))}
 			</div>
-			<div className="space-y-8 py-4 animate-marquee-fast">
+			<div
+				className={`space-y-8 py-4 transition-all translate-x-0 transform ease-in duration-600 ${
+					isLoaded ? "animate-marquee-fast opacity-100" : "opacity-0"
+				}`}
+			>
 				{dummy3.map(item => (
 					<ReviewCard key={item.id}>
 						<div className="text-gray-900">
