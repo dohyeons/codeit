@@ -20,6 +20,9 @@ export default function Header() {
 						<li>
 							<Link to={"/hero"}>hero</Link>
 						</li>
+						<li>
+							<Link to={"/intersection"}>intersection</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="flex md:divide-x divide-gray-300">
