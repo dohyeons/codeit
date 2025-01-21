@@ -9,8 +9,8 @@ export default {
 			},
 			animation: {
 				marquee: "marquee 32240ms linear infinite",
-				"marquee-fast": "marquee 44040ms linear infinite",
-				"marquee-reverse": "marquee reverse 24560ms linear infinite",
+				"marquee-fast": "marquee 24560ms linear infinite",
+				"marquee-reverse": "marquee reverse 40800ms linear infinite",
 			},
 			keyframes: {
 				marquee: {
